@@ -11,7 +11,7 @@ body {
 }
 
 /* -------------------------NAVBAR-------------------------*/
-li, a, button {
+li, a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -49,17 +49,4 @@ header {
 
 .nav_link li a:hover {
     color: #424549;
-}
-
-button {
-    padding: 9px 25px;
-    background-color: #424549;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: #47505c;
 }
