@@ -7,12 +7,13 @@
 }
 
 body {
-    background-color: #424549;
+    font-family: "Montserrat", sans-serif;
+    background: rgb(114,137,218);
+    background: linear-gradient(180deg, rgba(114,137,218,1) 0%, rgba(66,69,73,1) 47%, rgba(54,57,62,1) 100%);
 }
 
 /* -------------------------NAVBAR-------------------------*/
 li, a{
-    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -24,10 +25,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    background-color: #7289da;
+    background: rgb(114,137,218);
 }
 
 .logo {
+    width: 100px;
     cursor: pointer;
     margin-right: auto;
 }
@@ -49,4 +51,40 @@ header {
 
 .nav_link li a:hover {
     color: #424549;
+}
+
+/* -------------------------TEXT-BOX-------------------------*/
+
+.text-box{
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #edf0f1;
+}
+
+.text-box h1{
+    font-size: 75px;
+    line-height: 160px;
+}
+.text-box p{
+    font-size: 18px;
+}
+
+.bot{
+    width: 800px;
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+    top: 15%;
+
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 13%;
+    margin-bottom: 0;
+    background: rgb(114,137,218);
 }

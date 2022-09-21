@@ -1,3 +1,5 @@
+// NAVBAR
+
 class MobileNavbar {
   constructor(mobileMenu, navList, navLinks) {
     this.mobileMenu = document.querySelector(mobileMenu);
@@ -41,3 +43,6 @@ const mobileNavbar = new MobileNavbar(
   ".nav_link li",
 );
 mobileNavbar.init();
+
+// TYPING
+

@@ -27,7 +27,25 @@
             </ul>
         </nav>
     </header>
+
+    <div class="infos">
+        <div class="text-box">
+            <h1>Olá humano!</h1>
+            <p>Comigo no seu servidor você poderá ter <span class="auto-input"></span></p>
+        </div>
+        <img class="bot" src="src/imagens/chatbot.png">
+    </div>
+
+    <script src="src/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["boas conversas.", "entretenimento garantido.", "e muito mais."],
+            typeSpeed: 75,
+            backSpeed: 75,
+            loop: true
+        })
+    </script>
 </body>
-<script src="src/js/script.js"></script>
 
 </html>
