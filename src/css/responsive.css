@@ -38,6 +38,27 @@
   .mobile-menu {
     display: block;
   }
+
+/* --------------TEXT-BOX------------- */
+
+  .text-box {
+    margin-top: 15%;
+    font-size: 17px;
+  }
+
+  .text-box h1 {
+    font-size: 60px;
+  }
+
+  .text-box p {
+    font-size: 15px;
+  }
+
+  .bot {
+    width: 600px;
+    opacity: .10;
+  }
+
 }
 
 .nav_link.active {
@@ -66,4 +87,28 @@
 
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
+}
+
+@media (max-width: 1024px) {
+  .text-box {
+    margin-top: 15%;
+    font-size: 17px;
+  }
+
+  .text-box h1 {
+    font-size: 60px;
+  }
+
+  .text-box p {
+    font-size: 15px;
+  }
+
+  .bot {
+    width: 600px;
+    right: 3%;
+  }
+
+  .infos {
+    padding: 10px 10%;
+  }
 }

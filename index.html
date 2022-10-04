@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/imagens/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
     <title>Landing UniBot</title>
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="src/imagens/logo.svg">
+    <header id="home">
+        <img class="logo" src="src/imagens/logo.svg" href="#home">
         <nav>
             <div class="mobile-menu">
                 <div class="line1"></div>
@@ -20,10 +21,9 @@
                 <div class="line3"></div>
             </div>
             <ul class="nav_link">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Donate</a></li>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -34,6 +34,37 @@
             <p>Comigo no seu servidor você poderá ter <span class="auto-input"></span></p>
         </div>
         <img class="bot" src="src/imagens/chatbot.png">
+    </div>
+
+    <div class="buttonClass">
+        <a href="#" class="button">Me adicione no seu discord!</a>
+    </div>
+
+    <div id="sobre">
+        <img class="bot2" src="src/imagens/chatbot2.png">
+        <div class="about">
+            <h1>Sobre o Bot</h1>
+            <p>Fui criado com objetivo de entreter as pessoas que me adicionem em seus servidores, tanto para passar o tempo
+                com piadinhas sem graça quanto para pessoas que têm dificuldade em se expressar por meio de uma
+                conversa.
+            </p>
+        </div>
+    </div>
+
+    <div id="contato">
+        <div class="card__giratorio">
+            <div class="card__giratorio-conteudo">
+                <div class="card__giratorio-conteudo--frente">
+                    <h2>Para mais informações entre com contato conosco<h2>             
+                </div>
+                <div class="card__giratorio-conteudo--traseira">
+                    <h1>Nossas redes sociais</h1>
+                    <a href="https://www.facebook.com/">Nosso Facebook<img src="src/imagens/facebook.png"></a>
+                    <a href="https://www.instagram.com/">Nosso Instagram<img src="src/imagens/instagram.png"></a>
+                    <a href="https://twitter.com/home">Nosso Twitter<img src="src/imagens/twitter.png"></a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="src/js/script.js"></script>
